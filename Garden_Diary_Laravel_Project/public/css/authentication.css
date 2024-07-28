@@ -1,0 +1,9 @@
+.main-panel {
+    border: 1px solid #307905;
+    margin: 10px auto;
+}
+
+.main-top-panel {
+    color: #eee !important;
+    background-color: rgba(77, 132, 0, 1) !important;
+}

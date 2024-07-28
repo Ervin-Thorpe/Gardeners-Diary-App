@@ -1,0 +1,228 @@
+body {
+  padding-top: 51px;
+  //font-family: 'Walter Turncoat', serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid #eee;
+}
+
+.switchBtn {
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+.right-section {
+  width: 200px;
+}
+
+#garden-layout-top-container, #garden-diary-top-container {
+  width: 700px; /*can be in percentage also.*/
+  height: auto;
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  margin: 0 auto;
+}
+#edit-btn-group {
+
+}
+#edit-on-btn-group {
+  width: 100%; /*can be in percentage also.*/
+  margin: 0 auto;
+  position: relative;
+}
+#activities-btn-group hr {
+  width: 200px;
+  border-top: 5px solid #000;
+}
+.edit-mode-group hr{
+  width: 200px;
+  border-bottom: 5px solid #999;
+}
+.norm-btn {
+  display:block;
+  width: 200px;
+  margin: 10px auto;
+  stroke-width: 1px;
+  stroke: black;
+}
+#rename-tile-input {
+  text-align: center;
+}
+.garden-main-app-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+#garden-layout-top-left-container,  #garden-diary-top-left-container {
+  text-align: center;
+  margin: 10px 0px 5px 0px;
+}
+#left-panel-title-container {
+  position: relative; 
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+}
+#left-panel-title {
+  font-size: 24px;
+}
+#left-panel-subtitle {
+  font-size: 16px;
+}
+#garden-layout-patch-desc hr{
+  width: 200px;
+  border-bottom: 5px solid #000;
+}
+#garden-layout-top-right-container {
+  position: relative;
+  font-size: 24px;
+  float: left;
+  width: 200px;
+  margin: 10px 0px 10px 0px;
+}
+#garden-layout-bottom-container {
+  clear: left;
+}
+.gardenSwitchBtn {
+  margin: 4px 0px 0px 0px;
+}
+.canvas-container { 
+  margin: 0 auto;
+}
+#add-tile-group hr{
+  width: 200px;
+  border-top: 5px solid #999;
+}
+#modify-tile-group hr{
+  width: 200px;
+  border-bottom: 5px solid #999;
+}
+#save-garden hr{
+  width: 200px;
+  border-bottom: 5px solid #999;
+}
+#remove-tile hr{
+  width: 200px;
+  border-bottom: 5px solid #000;
+}
+.default-cursor {
+  cursor: default;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                not supported by any browser */
+}
+.edit-btn-centered {
+  width: 100%;
+  margin: 10 auto;
+}
+.activities-table {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.add-activity-td {
+  margin: 0 auto;
+  text-align: center;
+}
+.table-activity-data {
+  border: 1px solid #f0f0f0;
+  border-top-color: #e7e7e7;
+  padding: 0.7em;
+}
+.add-activity-btn-container {
+  margin: 0 auto;
+  text-align: center;
+}
+#popup-title {
+  color: #CC0000;
+  font-weight: bold;
+  font-size: 24px;
+}
+#popup-desc {
+  font-size: 18px;
+  font-weight: normal;
+}
+#popup-btn-group {
+  width: 100%;
+  margin: 0px auto;
+}
+#popup-yes{
+  display: inline-block; 
+  margin-right: 20px;
+}
+#popup-no{
+  display: inline-block; 
+  margin-right: 20px;
+}
+.clearFloat { clear: both; }
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index: 1000;
+    background:rgba(0,0,0,0.75);
+    text-align: center;
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}

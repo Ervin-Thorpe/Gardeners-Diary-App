@@ -1,0 +1,29 @@
+#left-panel-garden-layout-title, #left-panel-garden-diary-title {
+  padding: 9px;
+}
+
+.canvas-container {
+  margin: 10px auto;
+}
+
+.all-activities {
+  display: none;
+}
+
+.no-activities {
+  display: none;
+}
+
+.your-patches {
+  display: none;
+}
+
+.activity-btn-seperator {
+  margin-left: 5px;
+  padding-left: 5px;
+  border-left: 2px solid #307905;
+}
+
+.margin-right-5 {
+  margin-right: 5px;
+}

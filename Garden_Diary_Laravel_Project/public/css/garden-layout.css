@@ -1,0 +1,16 @@
+#loading-garden-layout
+{
+    text-align: center;
+    color: rgba(77, 132, 0, 0.9);
+    padding: 300px 175px;
+}
+
+.edit-on-btn-group
+{
+    display: none;
+}
+
+#garden-layout-canvas
+{
+    display: none;
+}

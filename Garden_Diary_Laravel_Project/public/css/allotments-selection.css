@@ -1,0 +1,23 @@
+.activities-table {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+.add-activity-td {
+  margin: 0 auto;
+  text-align: center;
+}
+.table-activity-data {
+  border-top: 1px solid #d3e9d4;
+  background-color: #fff;
+  padding: 0.7em;
+}
+.table-activity-data-desc {
+  border-top: 1px solid #d3e9d4;
+  background-color: #fff;
+  padding: 0 0 0 0.7em;
+  text-align: left;
+}
+.table-activity-data .activity-btn-container {
+  float: right;
+}

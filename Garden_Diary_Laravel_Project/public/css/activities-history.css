@@ -1,0 +1,29 @@
+#datepicker-container{
+    padding: 5px;
+}
+
+#datepicker {
+    width: 100%;
+}
+
+.activity-date-picker{
+    min-height: 300px;
+}
+
+#activity-date-picker-title{
+    color: #307905;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.activity-row {
+    padding: 10px;
+}
+
+#loading-garden-layout
+{
+    text-align: center;
+    color: rgba(77, 132, 0, 0.9);
+    padding: 300px 175px;
+}
